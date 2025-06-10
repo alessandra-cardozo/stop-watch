@@ -1,0 +1,52 @@
+Cronômetro Moderno e Responsivo
+Este é um projeto de cronômetro web, desenvolvido com foco em um design moderno, responsividade total e funcionalidades essenciais para medir o tempo com precisão, incluindo a marcação de voltas. Ideal para competições que valorizam a qualidade visual e a experiência do usuário.
+
+🚀 Tecnologias Utilizadas
+HTML5: Estrutura semântica do projeto.
+
+CSS3 (Tailwind CSS): Framework de utilitários CSS para estilização rápida e responsiva. Proporciona um design limpo, moderno e adaptável a qualquer tamanho de tela (mobile, tablet, desktop).
+
+JavaScript (Vanilla JS): Lógica principal para o funcionamento do cronômetro e manipulação do DOM.
+
+Font Awesome: Utilizado para os ícones intuitivos nos botões de ação (play, pause, reset, flag).
+
+Google Fonts: Utilizado para tipografias como 'Inter' (para texto geral) e 'Share Tech Mono' (para o display digital do cronômetro), garantindo um visual arrojado.
+
+✨ Funcionalidades
+Iniciar/Pausar/Continuar: Controle total sobre o fluxo do cronômetro.
+
+Resetar: Zera o cronômetro e limpa todas as marcas de tempo registradas.
+
+Marcar Tempo: Registra o tempo atual do cronômetro em uma lista, permitindo o acompanhamento de voltas ou eventos intermediários.
+
+Formato Preciso: Exibição do tempo no formato HH:MM:SS:FF (Horas:Minutos:Segundos:Centésimos de Segundo).
+
+Lista de Marcas: Uma seção dedicada para exibir as marcas de tempo, com rolagem automática para a mais recente e um estilo visual aprimorado.
+
+🎨 Design e Responsividade
+O design do cronômetro foi cuidadosamente elaborado para ser visualmente atraente e funcional em diversos dispositivos:
+
+Fundo Gradiente Dinâmico: Proporciona uma experiência visual imersiva e moderna.
+
+Cartão Flutuante: O container principal do cronômetro possui um fundo translúcido (backdrop-blur-lg), bordas arredondadas e sombras profundas, criando um efeito de profundidade.
+
+Display Digital Neon: O timer central utiliza uma fonte monoespaçada com brilho neon, simulando um display digital de alta tecnologia.
+
+Botões Interativos: Botões com cores vibrantes, bordas arredondadas e efeitos de interação (hover e clique) que melhoram a usabilidade.
+
+Totalmente Responsivo: Graças ao Tailwind CSS, o layout se ajusta automaticamente a diferentes tamanhos de tela, garantindo uma experiência otimizada em smartphones, tablets e desktops.
+
+📦 Como Executar o Projeto
+É muito simples! Você não precisa de nenhuma configuração complexa ou ambiente de desenvolvimento:
+
+Baixe ou Clone este repositório.
+
+Abra o arquivo index.html diretamente no seu navegador web preferido (Chrome, Firefox, Edge, etc.).
+
+O cronômetro será carregado instantaneamente e estará pronto para uso.
+
+🤝 Contribuições
+Sinta-se à vontade para abrir issues, enviar pull requests ou sugerir melhorias. Toda contribuição é bem-vinda!
+
+📄 Licença
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes (se você criar um arquivo LICENSE futuramente).

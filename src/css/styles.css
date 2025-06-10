@@ -1,0 +1,141 @@
+/* Definições globais para todos os elementos */
+* {
+    margin: 0;
+    /* Remove margens padrão */
+    padding: 0;
+    /* Remove preenchimentos padrão */
+    box-sizing: border-box;
+    /* Garante que padding e border sejam incluídos na largura/altura do elemento */
+    font-family: 'Courier New', Courier, monospace;
+    /* Define uma fonte padrão, embora o Tailwind substitua isso no body */
+}
+
+/* Estilização para o corpo da página */
+body {
+    display: flex;
+    /* Habilita flexbox para centralizar o conteúdo */
+    align-items: center;
+    /* Centraliza verticalmente */
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    width: 100%;
+    /* Ocupa 100% da largura da viewport */
+    height: 100vh;
+    /* Ocupa 100% da altura da viewport */
+    background: linear-gradient(180deg, #9f6bff, #6119cc);
+    /* Fundo com gradiente de cores */
+    /* Note: O gradiente no body do HTML já usa classes Tailwind que podem sobrescrever este estilo de fundo. */
+}
+
+/* Estilização para o contêiner principal do cronômetro */
+#stopwatch {
+    display: flex;
+    /* Habilita flexbox para organizar os elementos em coluna */
+    flex-direction: column;
+    /* Organiza os itens em coluna */
+    background-color: #262626;
+    /* Cor de fundo escura */
+    padding: 2rem;
+    /* Preenchimento interno */
+    border-radius: 8px;
+    /* Cantos levemente arredondados */
+    /* Note: Este seletor #stopwatch pode ter seus estilos sobrescritos pelas classes Tailwind no HTML. */
+}
+
+/* Estilização para o display do timer */
+#timer {
+    background-color: #262626;
+    /* Cor de fundo escura */
+    height: 250px;
+    /* Altura fixa */
+    width: 250px;
+    /* Largura fixa */
+    border: 3px solid #9f6bff;
+    /* Borda roxa */
+    margin-bottom: 1.5rem;
+    /* Margem inferior */
+    border-radius: 100%;
+    /* Transforma o elemento em um círculo */
+    display: flex;
+    /* Habilita flexbox para centralizar o texto */
+    align-items: center;
+    /* Centraliza verticalmente o texto */
+    justify-content: center;
+    /* Centraliza horizontalmente o texto */
+    font-weight: 600;
+    /* Peso da fonte */
+    font-size: 30px;
+    /* Tamanho da fonte */
+    color: #ffffff;
+    /* Cor do texto branca */
+    padding: 4rem;
+    /* Preenchimento interno */
+    /* Note: Muitos destes estilos são substituídos pelas classes Tailwind no HTML, como tamanho, cor, borda e fundo. */
+}
+
+/* Estilização para a seção de botões de ação */
+#actions {
+    display: flex;
+    /* Habilita flexbox para os botões */
+    gap: 0.5rem;
+    /* Espaçamento entre os botões */
+    /* Note: Este seletor #actions também pode ter seus estilos sobrescritos pelas classes Tailwind no HTML. */
+}
+
+/* Estilização para os botões dentro da seção de ações */
+#actions button {
+    display: flex;
+    /* Habilita flexbox para centralizar o ícone */
+    align-items: center;
+    /* Centraliza verticalmente o ícone */
+    justify-content: center;
+    /* Centraliza horizontalmente o ícone */
+    width: 100%;
+    /* Ocupa a largura total disponível em seu contêiner flex */
+    height: 40px;
+    /* Altura fixa */
+    padding: .6rem;
+    /* Preenchimento interno */
+    font-size: 1rem;
+    /* Tamanho da fonte do ícone */
+    border-radius: 4px;
+    /* Cantos arredondados */
+    border: none;
+    /* Remove a borda padrão */
+    color: #262626;
+    /* Cor do texto/ícone escura */
+    background-color: #e0e7ff;
+    /* Cor de fundo clara */
+    transition: background-color .2s ease-in;
+    /* Transição suave para a cor de fundo */
+    cursor: pointer;
+    /* Muda o cursor para indicar clicável */
+    /* Note: A maioria destes estilos para botões também são substituídos pelas classes Tailwind no HTML,
+             que oferecem animações e cores mais vibrantes. */
+}
+
+/* Estilização para o estado hover dos botões */
+#actions button:hover {
+    background-color: #c4b5fd;
+    /* Cor de fundo ao passar o mouse */
+    /* Note: As classes hover do Tailwind no HTML oferecem efeitos mais complexos como scale e sombra. */
+}
+
+/* Estilização para a lista de marcas de tempo */
+#marks-list {
+    display: flex;
+    /* Habilita flexbox para organizar as marcas em coluna */
+    flex-direction: column;
+    /* Organiza os itens em coluna */
+    gap: 0.7rem;
+    /* Espaçamento entre as marcas */
+    color: #ffffff;
+    /* Cor do texto branca */
+    /* Note: As classes Tailwind no HTML já aplicam um estilo visual mais robusto para a lista de marcas. */
+}
+
+/* Estilização para o primeiro item da lista de marcas */
+#marks-list p:first-child {
+    margin-top: 1.5rem;
+    /* Margem superior para o primeiro item da lista */
+}
